@@ -48,6 +48,7 @@ import {
 import {AppComponent} from './app.component';
 import {ObjectToList} from './shared/key-value.pipe';
 import {UnCamelCasePipe} from './shared/un-camel-case.pipe';
+import {GroupByPipe} from './shared/groupby.pipe';
 
 @NgModule({
   exports: [
@@ -105,6 +106,7 @@ export class MaterialModule {}
     MaterialModule,
     FlexLayoutModule,
     FormsModule,
+    GroupByPipe,
     ReactiveFormsModule,
     BrowserAnimationsModule
   ],
