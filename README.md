@@ -1,5 +1,5 @@
 # angular-material-data-list
-[![CircleCI](https://circleci.com/gh/pxblue/data-list.svg?style=shield)](https://circleci.com/gh/pxblue/data-list)
+[![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/angular)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
