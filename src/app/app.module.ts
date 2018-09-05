@@ -106,11 +106,10 @@ export class MaterialModule {}
     MaterialModule,
     FlexLayoutModule,
     FormsModule,
-    GroupByPipe,
     ReactiveFormsModule,
     BrowserAnimationsModule
   ],
-  declarations: [AppComponent, UnCamelCasePipe, ObjectToList],
+  declarations: [AppComponent, UnCamelCasePipe, GroupByPipe, ObjectToList],
   bootstrap: [AppComponent],
   providers: []
 })
