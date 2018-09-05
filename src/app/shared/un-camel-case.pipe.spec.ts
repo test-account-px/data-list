@@ -34,6 +34,7 @@ import {
   MatTooltipModule,
 } from '@angular/material';
 import {UnCamelCasePipe} from './un-camel-case.pipe';
+import {GroupByPipe} from './groupby.pipe';
 
 
 
