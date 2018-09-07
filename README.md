@@ -1,4 +1,4 @@
-# pxblue-list-actions-react
+# pxblue-data-list-react
 
 [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/react)
 
