@@ -1,9 +1,12 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './style.css';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import './style.css';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import {EatonThemes} from '@pxblue/themes/react/src';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+render(
+  <MuiThemeProvider theme={createMuiTheme(EatonThemes.blue)}>
+    <App />
+  </MuiThemeProvider>
+  , document.getElementById('root'));
