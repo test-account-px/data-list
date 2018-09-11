@@ -1,5 +1,4 @@
 import React from 'react';
-
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -54,7 +53,7 @@ export class ListValues extends React.Component {
             <Typography variant="title" color="inherit">
              Key Value List
           </Typography>
-            <div style={{ flex: '1 1 0px' }} />
+            <div className={"div"}  />
           </Toolbar>
         </AppBar>
         {this.state.list.length < 1 && 
