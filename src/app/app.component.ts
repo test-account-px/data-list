@@ -2,9 +2,9 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { VERSION, MatMenuTrigger } from '@angular/material';
 
 @Component({
-  selector: 'app-root',
+  selector: 'material-app',
   templateUrl: 'app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 
 })
 export class AppComponent {

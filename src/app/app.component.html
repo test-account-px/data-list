@@ -1,8 +1,8 @@
 <mat-toolbar color="primary">
-	<div>BasicList</div>
+	<div>Key Value List</div>
 	<div fxFlex style="margin:auto;"></div>
 </mat-toolbar>
-<mat-nav-list >
+<mat-list >
 	<mat-list-item *ngFor="let item of list|keyValue; let i of index" >
 		 <div fxLayout="row" style="width:100%" >
 			<span>{{ item.key|unCamelCase}}</span>
@@ -11,4 +11,4 @@
 	</div> 
 		
 	</mat-list-item>
-</mat-nav-list>
+</mat-list>
