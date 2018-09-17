@@ -51,21 +51,20 @@ export class ListValues extends React.Component {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="title" color="inherit">
-             Key Value List
-          </Typography>
-            <div className={"div"}  />
+              Key Value List
+	    </Typography>
           </Toolbar>
         </AppBar>
         {this.state.list.length < 1 && 
           this.getEmptyComponent()
         }
-        <List className="list" component="nav">
+        <List style={{paddingTop: '0px'}} component="nav">
           {
             this.state.list.map((item, i) => {
               return (
                 <ListItem key={item.key}>
                   <ListItemText primary={unCamelCase(item.key)} ></ListItemText>
-                  <ListItemText className="side" secondary={item.value}></ListItemText>
+                  <ListItemText className="lastColumn" secondary={item.value}></ListItemText>
                 </ListItem>
               )
             })
