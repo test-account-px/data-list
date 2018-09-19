@@ -1,4 +1,4 @@
-# Basic Data-list Example
+# Key-Value Pair List (from data object)
 
 [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/angular)
 
