@@ -50,7 +50,7 @@ export class ListValues extends React.Component {
       <div>
         <AppBar position="static">
           <Toolbar>
-            <Typography variant="title" color="inherit">
+            <Typography variant="h6" color="inherit">
               Key Value List
 	    </Typography>
           </Toolbar>
