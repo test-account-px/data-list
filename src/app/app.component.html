@@ -1,3 +1,20 @@
+
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+  <mat-toolbar color="primary">
+   <div>Simple List</div>
+   <div fxFlex style="margin:auto;"></div>
+ </mat-toolbar>
+ 
+ <ion-content>
+  <mat-list >
+    <mat-list-item  *ngFor="let item of list">    
+         <div fxLayout="row" style="width:100%" >
+           <span>{{ item.key }}</span>
+           <span fxFlex></span>
+           <span>{{ item.value }}</span>
+         </div>      
+        </mat-list-item>
+      </mat-list>
+   </ion-content> 
+ </ion-app>
+ 

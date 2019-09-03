@@ -6,15 +6,21 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 @Component({
   selector: 'app-root',
-  templateUrl: 'app.component.html',
-  styleUrls: ['app.component.scss']
+  templateUrl: 'app.component.html'
 })
 export class AppComponent {
-  constructor(
-    private platform: Platform,
+
+  list = [
+    { key : 'George Washington', value :  1789},
+    { key :    'John Adams', value : 1796},
+    { key :    'Thomas Jefferson', value : 1800},
+    { key :     'James Madison', value : 1808},
+    { key :    'James Monroe', value : 1812}
+  ]
+
+  constructor(private platform: Platform,
     private splashScreen: SplashScreen,
-    private statusBar: StatusBar
-  ) {
+    private statusBar: StatusBar) {
     this.initializeApp();
   }
 
@@ -24,4 +30,5 @@ export class AppComponent {
       this.splashScreen.hide();
     });
   }
+
 }
