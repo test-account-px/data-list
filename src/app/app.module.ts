@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouteReuseStrategy } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IonicModule } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
@@ -25,7 +24,7 @@ import { AppComponent } from './app.component';
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+    SplashScreen
   ],
   bootstrap: [AppComponent]
 })
