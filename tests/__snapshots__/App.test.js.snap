@@ -127,7 +127,7 @@ exports[`App Tests  App Renders 1`] = `
           "value": 1789,
         },
         Object {
-          "name": "Jhon Adams",
+          "name": "John Adams",
           "value": 1796,
         },
         Object {
@@ -375,7 +375,7 @@ exports[`App Tests  App Renders 1`] = `
                   }
                 }
               >
-                Jhon Adams
+                John Adams
               </Text>
             </View>
             <View
