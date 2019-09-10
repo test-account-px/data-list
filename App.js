@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, FlatList } from 'react-native';
 import * as Colors from '@pxblue/colors'
 import { Header, ListItem } from 'react-native-elements';
 const data = [{
@@ -23,17 +23,18 @@ export default function App() {
     <View style={styles.container}>
       <Header
         backgroundColor={Colors.blue[500]}
-        centerComponent={{ text: 'Simple List', style: { color: '#fff', fontSize: 18, } }}
+        centerComponent={{ text: 'Simple List', style: { color: '#fff', fontSize: 16, } }}
       />
-      {
-        data.map((item, index) => (
+      <FlatList
+        data={data}
+        keyExtractor={(item, index) => `${index}`}
+        renderItem={({item}) => (
           <ListItem
-            key={index}
             title={item.name}
             rightTitle={`${item.value}`}
           />
-        ))
-      }
+        )}
+      />
     </View>
   );
 }
