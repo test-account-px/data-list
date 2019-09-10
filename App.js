@@ -6,7 +6,7 @@ const data = [{
   name: "George Washington",
   value: 1789,
 }, {
-  name: "Jhon Adams",
+  name: "John Adams",
   value: 1796,
 },{
   name: "Thomas Jefferson",
