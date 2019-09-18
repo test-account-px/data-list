@@ -3,10 +3,10 @@ This project demonstrates how to build a list dynamically from a JSON data objec
 
 | Framework           | Status       | Live Examples  |
 | ---------------- |--------------|------------------|
-| Angular | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/angular) | [View on Stackblitz](https://stackblitz.com/edit/pxblue-data-list-angular)
-| React | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/react) | [View on Stackblitz](https://stackblitz.com/edit/pxblue-data-list-react)
-| Ionic | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/ionic.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/ionic) | [View on Stackblitz](https://stackblitz.com/edit/pxblue-data-list-ionic)
-| React Native | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/reactnative.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/reactnative) | [View on Snack](https://snack.expo.io/@px-blue/data-list-reactnative)
+| Angular | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/angular) | [View on Stackblitz](https://stackblitz.com/github/pxblue/data-list/tree/angular)
+| React | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/react) | [View on Code Sandbox](https://codesandbox.io/s/github/pxblue/data-list/tree/react)
+| Ionic | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/ionic.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/ionic) | [View on Stackblitz](https://stackblitz.com/github/pxblue/data-list/tree/ionic)
+| React Native | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/reactnative.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/reactnative) | [View on Snack](https://snack.expo.io/@git/github.com/pxblue/data-list@reactnative)
 
 ## Running the Example
 ### Angular
@@ -33,6 +33,7 @@ yarn && ionic serve
 ```
 To run on a device, add the platform then build and run the project:
 ```
+ionic cordova resources
 ionic cordova platform add [android|ios]
 ionic cordova build [android|ios]
 ionic cordova run [android|ios]
