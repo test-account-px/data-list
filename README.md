@@ -6,7 +6,7 @@ This project demonstrates how to build a list dynamically from a JSON data objec
 | Angular | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/angular) | [View on Stackblitz](https://stackblitz.com/github/pxblue/data-list/tree/angular)
 | React | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/react) | [View on Code Sandbox](https://codesandbox.io/s/github/pxblue/data-list/tree/react)
 | Ionic | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/ionic.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/ionic) | [View on Stackblitz](https://stackblitz.com/github/pxblue/data-list/tree/ionic)
-| React Native | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/reactnative.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/reactnative) | [View on Snack](https://snack.expo.io/@git/github.com/pxblue/data-list@reactnative)
+| React Native | [![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/reactnative.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/reactnative) | [View on Snack](https://snack.expo.io/@git/github.com/pxblue/data-list@reactnative?preview=true&platform=ios)
 
 ## Running the Example
 ### Angular
