@@ -7,7 +7,7 @@ import * as PXBThemes from '@pxblue/themes/react';
 require('typeface-open-sans');
 
 render(
-  <MuiThemeProvider theme={createMuiTheme(PXBThemes.blue)}>
+  <MuiThemeProvider theme={createMuiTheme(PXBThemes.red)}>
     <App />
   </MuiThemeProvider>
   , document.getElementById('root'));
